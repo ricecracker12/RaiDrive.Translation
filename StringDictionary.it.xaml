@@ -1,15 +1,15 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:system="clr-namespace:System;assembly=mscorlib">
 	<x:Array x:Key="Contributors" Type="system:String">
-		<system:String>bovirus gabrigli</system:String>
+		<system:String>bovirus e gabrigli</system:String>
 	</x:Array>
 	<system:String x:Key="Language.English">Italian</system:String>
 	<system:String x:Key="Language.Native">italiano</system:String>
 	<system:String x:Key="Language.Tags">it</system:String>
 
 	<system:String x:Key="Messages.ApplyOnCopyMoveRename">Si applica quando si copia, si sposta o si rinominano file e cartelle.</system:String>
-	<system:String x:Key="Messages.Cache.FolderNotSupport">La cartella cache deve trovarsi in un disco locale. Le unità di rete non sono supportate.</system:String>
+	<system:String x:Key="Messages.Cache.FolderNotSupport">La cartella cache deve essere una cartella nell'unità disco locale. Non sono supportate le unità di rete.</system:String>
 	<system:String x:Key="Messages.CheckAddress">Controlla l'indirizzo.</system:String>
 	<system:String x:Key="Messages.CheckPort">Controlla la porta {0}.</system:String>
 	<system:String x:Key="Messages.CheckProtocolPort">Ricontrolla il protocollo {0} e la porta {1}.</system:String>
@@ -65,7 +65,7 @@
 	<system:String x:Key="Messages.NotReadyReboot">RaiDrive non è pronto per l'avvio, è necessario riavviare il sistema.</system:String>
 	<system:String x:Key="Messages.NotSupportBrowserDropbox">Dropbox supporta Internet Explorer 10, 11. È consigliabile installare Internet Explorer 11.</system:String>
 	<system:String x:Key="Messages.NotSupportNetworkDrive">RaiDrive non supporta un'unità di rete.</system:String>
-	<system:String x:Key="Messages.NotSupportRaiDrive">Le unità connesse da RaiDrive non sono supportate.</system:String>
+	<system:String x:Key="Messages.NotSupportRaiDrive">Non sono supportate le unità connesse da RaiDrive.</system:String>
 	<system:String x:Key="Messages.OAuth.InvalidClient">Dominio non gestito da Active Directory</system:String>
 	<system:String x:Key="Messages.OAuth.InvalidClientDescription">L'account non è gestito da Active Directory. È necessario contattare l'amministratore di Active Directory o del dominio o accedere come account personale.</system:String>
 	<system:String x:Key="Messages.OtherResponseCode.2">Percorso non trovato. Controlla il percorso {0}.</system:String>
@@ -78,7 +78,7 @@
 	<system:String x:Key="Messages.SelectLocalDrive">Seleziona una cartella del PC</system:String>
 	<system:String x:Key="Messages.SelectPrivateKeyPath">è possibile selezionare il file della chiave privata</system:String>
 	<system:String x:Key="Messages.SelectTargetFolder">Seleziona una cartella remota in cui verranno archiviati i file</system:String>
-	<system:String x:Key="Messages.Service.Alive">Premi OK per riavviare RaiDrive.</system:String>
+	<system:String x:Key="Messages.Service.Alive">Per riavviare RaiDrive seleziona 'OK'.</system:String>
 	<system:String x:Key="Messages.Service.GetStarted">Iniziamo con RaiDrive?</system:String>
 	<system:String x:Key="Messages.Service.Stoped">Il servizio RaiDrive è stato fermato.</system:String>
 	<system:String x:Key="Messages.SignOut.Question1">Le funzioni dell'abbonamento saranno disabilitate e tutte le unità saranno ricollegate. Salva i file o chiudi le applicazioni.</system:String>
@@ -148,7 +148,7 @@
 	<system:String x:Key="Phrases.UnavailableOption">Opzione non disponibile</system:String>
 	<system:String x:Key="Phrases.UpdateChangeAsync">Aggiorna le modifiche allo spazio di archiviazione in modo asincrono</system:String>
 	<system:String x:Key="Phrases.UseAppLock">Usa il blocco applicazione</system:String>
-	<system:String x:Key="Phrases.UseDriveIcon">Usa l'icona personalizzata per un'unità connessa</system:String>
+	<system:String x:Key="Phrases.UseDriveIcon">Per l'unità connessa usa l'icona personalizzata</system:String>
 
 	<system:String x:Key="Words.AccessKeyID">ID chiave di accesso</system:String>
 	<system:String x:Key="Words.Account">Account</system:String>
